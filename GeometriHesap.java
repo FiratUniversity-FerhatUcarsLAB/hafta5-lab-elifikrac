@@ -62,42 +62,42 @@ public class Main {
         scan.close();
     }
 
-    // 🔹 Kare Alan
+    // Kare Alan
     public static double calculateSquareArea(double side) {
         return side * side;
     }
 
-    // 🔹 Kare Çevre
+    // Kare Çevre
     public static double calculateSquarePerimeter(double side) {
         return 4 * side;
     }
 
-    // 🔹 Dikdörtgen Alan
+    // Dikdörtgen Alan
     public static double calculateRectangleArea(double width, double height) {
         return width * height;
     }
 
-    // 🔹 Dikdörtgen Çevre
+    // Dikdörtgen Çevre
     public static double calculateRectanglePerimeter(double width, double height) {
         return 2 * (width + height);
     }
 
-    // 🔹 Daire Alan
+    // Daire Alan
     public static double calculateCircleArea(double radius) {
         return Math.PI * Math.pow(radius, 2);
     }
 
-    // 🔹 Daire Çevre
+    // Daire Çevre
     public static double calculateCircleCircumference(double radius) {
         return 2 * Math.PI * radius;
     }
 
-    // 🔹 Üçgen Alan
+    // Üçgen Alan
     public static double calculateTriangleArea(double base, double height) {
         return (base * height) / 2;
     }
 
-    // 🔹 Üçgen Çevre
+    // Üçgen Çevre
     public static double calculateTrianglePerimeter(double a, double b, double c) {
         return a + b + c;
     }
